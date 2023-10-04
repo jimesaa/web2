@@ -1,0 +1,228 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Microsoft Yahei", 微软雅黑, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* 头部样式 */
+.box1 {
+    height: 82px;
+    background-color: #333;
+}
+
+.box1 .nav1 {
+    float: left;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 82px;
+    padding-left: 20px;
+}
+.box1 .nav2 .serch {
+  float: left;
+  width: 395px;
+  height: 42px;
+  background-color: #BF9E4B;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  margin-left: 200px;
+}
+.serch input {
+  float: left;
+  width: 345px;
+  height: 42px;
+  border: 1px solid #bfbfbf;
+  border-right: 0;
+  color: #bfbfbf;
+  font-size: 14px;
+  padding-left: 15px;
+}
+.serch button {
+  float: left;
+  width: 50px;
+  height: 42px;
+  border: 1px solid #f7f7f7;
+  background: url(images/serch.png);
+}
+.nav2 ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.nav2 ul li {
+    float: right;
+    margin-right: 20px;
+}
+
+.nav2 ul li a {
+    display: block;
+    height: 42px;
+    line-height: 82px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav2 ul li a:hover {
+    color: #ccc;
+  }
+
+  /* 横幅样式 */
+.banner {
+    padding: 50px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+.banner h2 {
+    margin-bottom: 20px;
+  }
+  /* 热门饰品样式 */
+  .box2 {
+    width: 1250px;
+    height: 36px;
+    /* background-color: pink; */
+    margin: auto;
+    border-bottom: 1px solid #929394;
+  }
+  .box2 h2 {
+    float: left;
+    margin-left: 30px;
+    font-size: 16px;
+   
+    width: 131px;
+    height: 36px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+    background: #BF9E4B;
+    background-image: linear-gradient(270deg,rgba(206,170,52,.8) 0,rgba(189,149,42,.8) 36%,rgba(160,113,24,.8) 100%);
+  }
+  .box2 .nav3 {
+    float: left;
+    margin-left: 30px;
+  }
+  .box2 .nav3 li  {
+    float: left;
+    
+  }
+  .box2 .nav3 li a {
+    padding: 0 40px;
+    line-height: 36px;
+    font-size: 16px;
+    color: #929394;
+  }
+  .box2 .nav3 li a:hover {
+    color: #ccc;
+  } 
+  .jinrushichang {
+    float: right;
+    margin-right: 12px;
+    font-size: 14px;
+    color: #929394;
+    line-height: 36px;
+
+  }
+  .box3 {
+    width: 1250px;
+    height: 496px;
+    background-color: #f7f7f7; 
+    margin: auto;
+}
+.box3 .box3-ul {
+    width: 1250px;
+    height: 496px;
+    
+}
+ .box3 .box3-ul li {
+    width: 210px;
+    height: 220px;
+    background-color: #fff;
+    float: left;
+    margin-left: 33px;
+    margin-top: 19px;
+}
+
+  .box3 li a:hover {
+    color: #999;
+  }
+  
+  .box3 .box3-ul li img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .box3 li h3 {
+    margin-bottom: 10px;
+    
+    margin-right: 12px!important;
+    /* 超出部分隐藏 */
+    overflow: hidden;
+   /* 不许换行 */
+    text-overflow: ellipsis;
+     /* 超出部分用省略号显示 */
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 12px;
+    font-weight: 400;
+
+  }
+  
+  .box3 .box3-ul li h3 a {
+font-size: 14px;
+color: #999;
+  }
+  .box3 li h3 a:hover {
+    color: #BF9E4B;
+  }
+  p {
+    display: block;
+    margin-top: 4px;
+    margin-right: 12px;
+    margin-bottom: 6px;
+    margin-left: 12px;
+  }
+  .box3 .box3-ul li p strong {
+    display: block;
+    color: #eea20e;
+    font-size: 14px;
+    margin: -4px 0 0 0;
+  }
+  /* .box3 .box3-ul li a {
+    text-decoration: none;
+    color: black;
+  } */
+  .review {
+    height: 21px;
+    font-size: 14px;
+    margin: 0 10px 2px 10px;
+    font-weight: normal;
+    text-align: center;
+    display: block;
+  }
+  .featured-products li p {
+    font-size: 16px;
+    color: #333;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
